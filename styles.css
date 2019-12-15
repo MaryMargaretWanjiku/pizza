@@ -11,7 +11,7 @@
     display: inline-block;
     list-style: none;
 } */
-nav{
+nav {
     justify-content: space-evenly
 }
 
@@ -35,23 +35,33 @@ nav>ul>li>a:hover {
 h1 {
     text-align: center;
     margin-top: 20%;
-    color:blue;
+    color: blue;
 }
-.toppage{
+
+.toppage {
     height: 100vh;
-    background-image:url("https://bit.ly/35lTBWs");
+    background-image: url("https://bit.ly/35lTBWs");
     background-size: cover;
     background-repeat: no-repeat;
-    padding:100px;
+    padding: 100px;
 }
-.menu{
+
+.menu {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 }
-h2{
+
+h2 {
     text-align: center;
 }
-#menu_heading {
+
+#menu-heading {
     align-items: center;
     text-align: center;
+}
+
+.form {
+    text-align: center;
+    align-items: center;
+    margin-left: 25%;
 }

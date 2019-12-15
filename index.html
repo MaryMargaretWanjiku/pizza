@@ -21,10 +21,11 @@
         <div class="toppage d-flex justify-content-center">
             <h1>Te la diamo calda.</h1>
         </div>
+        <div id="menu-heading">
+            <h2>Menu.</h2>
+        </div>
         <div class="menu text-center">
-            <div id="menu heading">
-                <h2>Menu.</h2>
-            </div>
+
             <div>
                 <img src="https://bit.ly/38CdScm" alt="regular">
                 <p>Regular<br>400</p>
@@ -40,7 +41,7 @@
         </div>
         <div class="order text-center">
             <h2>Order</h2>
-            <div id="form text-center">
+            <div class="form text center">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8 order-overlay text-center">
                     <form class="col-sm-6 offset-sm-3 text-center">
@@ -78,9 +79,51 @@
                             <option value="beef">Beef Peperoni @ sh. 170</option>
                             <option value="chicken">Periperi Chicken @ sh. 170</option>
                         </select>
+                        <label for="number">Number of Pizza's</label>
+                        <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1"
+                            max="10" required>
+                    </form>
+                    <a href="#summary">
+                        <button type="submit" class="btn btn-success checkout" id="checkout">
+                            Checkout
+                        </button>
+                    </a>
+
+                </div>
+                <!-- <div class="col-sm-2"></div>
+            </div> -->
+            </div>
+
+            <!-- <div class="order-summary" id="sum-order">
+            <h1 class="text-center" id="summary">Order Summary</h1>
+            <h2 class="text-center summary">Hello there, your order is as follows:</h2>
+            <ol id="list" class="text-center sum">
+            </ol>
+
+
+            <div class="cdata-overlay">
+                <div class="customerdata row">
+                    <div class="col-sm-3"></div>
+                    <form action="" class="form-group col-sm-6 data">
+                        <input type="text" class="form-control cdata" placeholder="Enter your Name:">
+                        <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
+                        <input type="text" class="form-control cdata" placeholder="Enter the location: ">
+                        <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
+                    </form>
+
+                    <div class="col-sm-3"></div>
                 </div>
             </div>
+            <div class="d-block mx-auto text-center">
+                <button class='deliver'>Make Delivery</button>
+                <button class='delivernot'>Pick Up</button>
+            </div> -->
         </div>
+    </div>
+    </div>
+    </div>
 </body>
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
 
 </html>
