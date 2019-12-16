@@ -24,7 +24,6 @@ nav>li {
     list-style: none;
     color: white;
     background-color: solid grey;
-    font-family: 'Shadows Into Light Two', cursive;
 }
 
 nav>ul>li>a:hover {
@@ -37,7 +36,6 @@ h1 {
     text-align: center;
     margin-top: 20%;
     color: white;
-    font-family: 'Rock Salt', cursive;
 }
 
 h1#summary {
@@ -64,7 +62,7 @@ h2 {
     text-align: center;
 }
 
-.menu-heading {
+#menu-heading {
     align-items: center;
     text-align: center;
 }
@@ -130,7 +128,7 @@ h4 {
 ul>li {
     list-style: none;
 }
-.footer{
-    background-color: dimgray;
-    font-family: 'Tangerine', cursive;
+
+#sum-order {
+    /* margin-top: 20px; */
 }
