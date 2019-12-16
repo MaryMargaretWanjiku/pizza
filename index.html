@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="css/nyota.js"></script>
     <title>Pizza applization.</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -14,11 +13,13 @@
 
 <body>
     <div class="continer-fluid">
-        <nav class="bg-dark d-flex">
-            <li>Menu</li>
-            <li>Order</li>
-            <li>Contact</li>
-        </nav>
+        <ul>
+            <nav class="bg-dark d-flex">
+                <li><a href="index.html">Menu</a></li>
+                <li><a href="#orderlink">Order</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </nav>
+        </ul>
         <div class="toppage d-flex justify-content-center">
             <h1>Te la diamo calda.</h1>
         </div>
@@ -40,7 +41,7 @@
                 <p>Large<br>1400</p>
             </div>
         </div>
-        <div class="order text-center">
+        <div class="order text-center" id="orderlink">
             <h2>Order</h2>
             <div class="form text center">
                 <div class="col-sm-2"></div>
@@ -82,40 +83,31 @@
                         <label for="number">Number of Pizza's</label>
                         <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1"
                             max="10" required>
-                        <form id="summary" action="" class="form-group col-sm-6 data">
-                            <a href="#summary"><button type="submit" class="btn btn-success checkout"
-                                    onclick="getTotal()">
-                                    Checkout
-                                </button></a>
-                        </form>
-                        <a href="#summary">
-                        </a>
+                        <button type="submit" class="btn btn-success checkout" id="checkout">Checkout</button>
+                    </form>
 
                 </div>
-                <!-- <div class="col-sm-2"></div>
-            </div> -->
             </div>
 
             <div class="order-summary" id="sum-order">
                 <h1 class="text-center" id="summary">Order Summary</h1>
                 <h2 class="text-center summary">Hello there, your order is as follows:</h2>
-                <ol id="list" class="text-center sum">
-                </ol>
+                <ul id="list" class="text-center sum">
+                </ul>
 
 
-                <div class="cdata-overlay">
+                <!-- <div class="cdata-overlay">
                     <div class="customerdata row">
                         <div class="col-sm-3"></div>
                         <form action="" class="form-group col-sm-6 data">
                             <input type="text" class="form-control cdata" placeholder="Enter your Name:">
                             <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
                             <input type="text" class="form-control cdata" placeholder="Enter the location: ">
-                            <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
                         </form>
 
                         <div class="col-sm-3"></div>
                     </div>
-                </div>
+                </div> -->
                 <div class="d-block mx-auto text-center">
                     <button class='deliver'>Make Delivery</button>
                     <button class='delivernot'>Pick Up</button>
@@ -123,14 +115,18 @@
             </div>
         </div>
         <div class="footer text-center">
-
+            <footer>
+                <p>Email:buong.p@yahoo.com</p>
+                <p>Tel:+254722949802</p>
+                <p><em>&copy; 2019 All Rights Reserved</em></p>
+            </footer>
         </div>
     </div>
 
 </body>
-<script src="css/jquery-3.4.1.js "></script>
+<script src="js/jquery-3.4.1.js "></script>
 <!-- <script src="css/script.js"></script> -->
-<script src="css/scripts.js"></script>
+<script src="js/scripts.js"></script>
 <!-- <script src="css/store.js"></script> -->
 
 </html>
