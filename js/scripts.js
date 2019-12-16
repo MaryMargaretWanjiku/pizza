@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $('#checkout').click(function (event) {
+        event.preventDefault();
         var flavour = parseInt($("#flavours :selected").val())
         var size = parseInt($("#sizes :selected").val())
         var crust = parseInt($("#crusts :selected").val())
