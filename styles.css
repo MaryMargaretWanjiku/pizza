@@ -24,6 +24,7 @@ nav>li {
     list-style: none;
     color: white;
     background-color: solid grey;
+    font-family: 'Dancing Script', cursive
 }
 
 nav>ul>li>a:hover {
@@ -36,6 +37,7 @@ h1 {
     text-align: center;
     margin-top: 20%;
     color: white;
+    font-family: 'Permanent Marker', cursive;
 }
 
 h1#summary {
@@ -133,6 +135,8 @@ ul>li {
 #sum-order {
     /* margin-top: 20px; */
 }
-.footer{
+
+.footer {
     background-color: gray;
+    font-family: 'Kalam', cursive;
 }
