@@ -98,11 +98,15 @@ h4 {
 .order-overlay {
     height: inherit;
     padding: 20px;
-    background-image:url("")
-    border-radius: 20px;
+    border-radius:20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.616)),url('https://bit.ly/2PQg72Z');
 }
 
 .checkout {
     border-radius: 20px;
     margin-top: 20px;
+}
+.menu img{
+    height: 300px;
+    width: 300px
 }
