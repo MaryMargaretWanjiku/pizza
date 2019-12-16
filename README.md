@@ -29,11 +29,12 @@ The website is working okay but we are looking forward to expand it  globally
 * jQuery
 
 ## Support and contacts details
-If there is any addition or further clarrificatio please contact me:
+If there is any addition or further clarrification please contact me:
 tel:+254797239875
 Email:patrickbuong@gmail.com
 
 ## Behaviour Driven Development(BDD)
+
 Inputs	            Description
 Pizza Flavour	    eg chicken-tikka
 Pizza size	        eg medium
@@ -41,7 +42,10 @@ Pizza crust	        eg flatbread crust
 Pizza topping	    eg Beef peperoni
 Number of pizzas	eg 6
 Delivery mode	    eg No delivery
+   
+## codebeat
 
+https://codebeat.co/projects/github-com-patrick322-pizza-master
 
 
 ## Livelink
@@ -51,4 +55,4 @@ Delivery mode	    eg No delivery
 
 ## Licence
 
-licenced under the(MIT licence){LICENCED}.
+licenced under the[MIT licence](LICENCED)

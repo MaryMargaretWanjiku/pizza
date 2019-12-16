@@ -82,12 +82,14 @@
                         <label for="number">Number of Pizza's</label>
                         <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1"
                             max="10" required>
-                        <button type="submit" class="btn btn-success checkout" onclick="getTotal()">
-                            Checkout
-                        </button>
-                    </form>
-                    <a href="#summary">
-                    </a>
+                        <form id="summary" action="" class="form-group col-sm-6 data">
+                            <a href="#summary"><button type="submit" class="btn btn-success checkout"
+                                    onclick="getTotal()">
+                                    Checkout
+                                </button></a>
+                        </form>
+                        <a href="#summary">
+                        </a>
 
                 </div>
                 <!-- <div class="col-sm-2"></div>
@@ -120,8 +122,11 @@
                 </div>
             </div>
         </div>
+        <div class="footer text-center">
+
+        </div>
     </div>
-    </div>
+
 </body>
 <script src="css/jquery-3.4.1.js "></script>
 <!-- <script src="css/script.js"></script> -->
