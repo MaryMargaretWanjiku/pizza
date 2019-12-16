@@ -40,7 +40,7 @@ h1 {
 
 .toppage {
     height: 100vh;
-    background-image: url("https://bit.ly/35lTBWs");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.616)), url("https://bit.ly/35lTBWs");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px;
@@ -49,6 +49,9 @@ h1 {
 .menu {
     display: flex;
     justify-content: space-around;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.616)), url('https://bit.ly/35s9Zob');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h2 {

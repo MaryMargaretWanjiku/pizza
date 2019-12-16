@@ -44,7 +44,7 @@
             } else {
               return;
             }
-            alert("Your order will be delivered. Delivery fee is Ksh.50")
+            alert("Your order will be delivered. Delivery fee is Ksh.100")
       
         }
 //     })
